@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -17,17 +18,19 @@ const Header = () => {
               <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links mr-2 pr-3 pl-3 ml-2">
-              <Nav.Link eventKey="destination">Destination</Nav.Link>
+              <Nav.Link href="destination">Destination</Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links mr-2 pr-3 pl-3 ml-2">
-              <Nav.Link eventKey="blog">Blog</Nav.Link>
+              <Nav.Link href="blog">Blog</Nav.Link>
             </Nav.Item>
             <Nav.Item className="nav-links mr-2 pr-3 pl-3 ml-2">
-              <Nav.Link eventKey="contact">Contact</Nav.Link>
+              <Nav.Link href="contact">Contact</Nav.Link>
             </Nav.Item>
-            <button type="button" className="btn btn-outline-info">
-              Login
-            </button>
+            <Link to="/signup">
+              <button type="button" className="btn btn-outline-info">
+                Login
+              </button>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
