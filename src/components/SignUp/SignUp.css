@@ -1,0 +1,14 @@
+.form-container {
+    border: 1px solid salmon;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container input, button {
+    width: 55%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}

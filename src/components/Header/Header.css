@@ -1,0 +1,10 @@
+.nav-links:hover {
+    background-color: lightsalmon;
+    border-radius: 5px;
+}
+#mini-navbar {
+    width: 20%;
+}
+#mini-navbar:hover {
+    background-color: salmon;
+}

@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "BIKE",
+    "model": "62",
+    "color": "Maroon",
+    "image": "https://freepngimg.com/thumb/bike/23054-6-motorbike-hd.png",
+    "count": 59,
+    "amount": "$8.95"
+  }, {
+    "id": 2,
+    "name": "CAR",
+    "model": "Savana 1500",
+    "color": "Puce",
+    "image": "https://freepngimg.com/thumb/car/31510-9-car-transparent-background.png",
+    "count": 84,
+    "amount": "$8.18"
+  }, {
+    "id": 3,
+    "name": "BUS",
+    "model": "Escape",
+    "color": "Maroon",
+    "image": "https://pngimg.com/uploads/bus/bus_PNG8610.png",
+    "count": 28,
+    "amount": "$7.24"
+  }, {
+    "id": 4,
+    "name": "TRAIN",
+    "model": "G6",
+    "color": "Red",
+    "image": "https://pngimg.com/uploads/trian/trian_PNG16642.png",
+    "count": 44,
+    "amount": "$1.52"
+  }]
