@@ -13,9 +13,9 @@ const HomePage = () => {
       <div className="home-transports-container row d-flex justify-content-center align-items-center" id="transport-card">
       {info.map((singleTransport) => (
         <Transports
-          singleTransport={singleTransport}
-          key={singleTransport.id}
-        ></Transports>
+        singleTransport={singleTransport}
+        key={singleTransport.id}
+      ></Transports>
       ))}
       </div>
     </div>
