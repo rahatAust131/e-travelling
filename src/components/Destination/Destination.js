@@ -1,9 +1,10 @@
 import React from 'react';
+import SearchPlace from '../SearchPlace/SearchPlace';
 
 const Destination = () => {
     return (
         <div>
-            Developer is sleeping (Destination)
+            <SearchPlace></SearchPlace>
         </div>
     );
 };

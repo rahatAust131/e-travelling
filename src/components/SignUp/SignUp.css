@@ -1,14 +1,29 @@
-.form-container {
-    border: 1px solid salmon;
-    height: 80vh;
+* {
+    transition: all 0.35 ease-in;
+}
+.signup-form-container {
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.form-container input, button {
-    width: 55%;
+.signup-form-container input, button {
+    width: 45%;
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px;
+}
+.google-icon img {
+    width: 5%;
+}
+.google-btn {
+    background-color: whitesmoke;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.google-btn:hover {
+    word-spacing: 6px;
+    background-color: lightgrey;
+    color: darkblue;
 }
