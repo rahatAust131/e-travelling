@@ -1,9 +1,8 @@
 import React, { useState } from "react";
+import ShowPlace from "../ShowPlace/ShowPlace";
 import './SearchPlace.css';
 
-
 const SearchPlace = () => {
-
   // state of user
   const [user, setUser] = useState({
     name : '',
@@ -34,6 +33,7 @@ const SearchPlace = () => {
 
   const handleSubmit = (e) => {
     console.log('submitting');
+      <ShowPlace></ShowPlace>
     e.preventDefault();
   };
 
@@ -47,7 +47,7 @@ const SearchPlace = () => {
           <input type="submit" className="btn btn-secondary" placeholder="Search" />
         </form>  
       <div>
-          <img src="" alt=""/>
+          <img src="../../images/Map.png" alt=""/>
       </div>
     </div>
   );

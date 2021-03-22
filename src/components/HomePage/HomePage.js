@@ -12,10 +12,9 @@ const HomePage = () => {
       <h1>Total transport {info.length}</h1>
       <div className="home-transports-container row d-flex justify-content-center align-items-center" id="transport-card">
       {info.map((singleTransport) => (
-        <Transports
+        < Transports
         singleTransport={singleTransport}
-        key={singleTransport.id}
-      ></Transports>
+        key={singleTransport.id} />
       ))}
       </div>
     </div>

@@ -7,7 +7,7 @@ const Transports = (props) => {
   console.log(name, id, count, amount);
 
   return (
-      <Link to={`/${id}`} className="transport-container">
+      <Link to={`/destination/${id}`} className="transport-container">
       <div className="card transport-card col-sm">
         <img src={image} className="card-img-top transport-img" alt=""></img>
         <div className="card-body text-center">
